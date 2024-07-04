@@ -5,6 +5,13 @@
   background-position: 50% 0%;
 }
 
+.courses-header-background {
+  background: url('./images/pic_3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+}
+
 .logo-img {
   width: 36px;
 }
@@ -42,10 +49,10 @@
   border-color: #C271FF;
 }
 
-.text-purple {
+.text-pink {
   color: #C271FF;
 }
-.bg-purple {
+.bg-pink {
   background-color: #C271FF;
 }
 
@@ -97,7 +104,7 @@
   height: 62px;
   width: 29px;
 }
-
+/* The carousel buttons wouldn'd position correctly so I am using margin to fix. I tested on smaller screen sizes and it mostly works, if not perfect. */
 .tutorial-btn-l {
   margin-left: -8%;
 }
@@ -149,4 +156,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0%;
+}
+
+.courses-header {
+  font-size: 32px;
+  font-family: Coiny;
 }
